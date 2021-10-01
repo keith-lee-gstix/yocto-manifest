@@ -10,7 +10,7 @@
   <remote name="qt5" fetch="git://github.com/meta-qt5" />
   <remote name="qt5-mirror" fetch="https://code.qt.io/cgit/yocto" />
   <remote name="qt5-extra" fetch="git://github.com/schnitzeltony" />
-  <remote name="tegra" fetch="git://github.com/madisongh" />
+  <!-- <remote name="tegra" fetch="git://github.com/madisongh" /> -->
   <remote name="ossytems" fetch="git://github.com/OSSystems" />
   <remote name="clang" fetch="git://github.com/kraj" />
   <remote name="ros" fetch="git://github.com/ros" />
@@ -29,13 +29,13 @@
   <project name="meta-gumstix-extras" revision="refs/heads/dunfell" remote="gumstix" path="poky/meta-gumstix-extras" />
   <project name="meta-qt5" revision="refs/heads/dunfell"  remote="qt5" path="poky/meta-qt5" />
   <!-- <project name="meta-qt5.git" revision="refs/heads/5.15"  remote="qt5-mirror" path="poky/meta-qt5" /> -->
-  <project name="meta-tegra" revision="refs/heads/dunfell-l4t-r32.4.3" remote="tegra" path="poky/meta-tegra" />
+  <!-- <project name="meta-tegra" revision="refs/heads/dunfell-l4t-r32.4.3" remote="tegra" path="poky/meta-tegra" /> -->
   <project name="meta-java" revision="refs/heads/dunfell"  remote="yocto" path="poky/meta-java" />
   <project name="meta-browser" revision="refs/heads/master"  remote="ossytems" path="poky/meta-browser" />
   <project name="meta-clang" revision="refs/heads/dunfell"  remote="clang" path="poky/meta-clang" />
   <project name="meta-python2" revision="refs/heads/dunfell"  remote="oe" path="poky/meta-python2" />
   <project name="meta-arm" revision="refs/heads/dunfell"  remote="yocto" path="poky/meta-arm" />
-  <project name="meta-qt5-extra" revision="refs/heads/master"  remote="qt5-extra" path="poky/meta-qt5-extra" />
+  <project name="meta-qt5-extra" revision="refs/heads/dunfell"  remote="qt5-extra" path="poky/meta-qt5-extra" />
   <project name="meta-ros" revision="5f8eaceece856f892602753d79e9f19920c4d077" remote="ros" path="poky/meta-ros" />
 
 </manifest>
